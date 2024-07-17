@@ -49,12 +49,6 @@ while getopts :-: opt; do
 done
 shift $((OPTIND - 1))
 
-# Make sure that this script is running in the miyalab computer server.
-if [ -z "${MIYALAB_ENV}" ]; then
-  echo "This program should be used in miyalab computer server." 1>&2
-  exit 1
-fi
-
 # Make sure that docker is already installed.
 if [ -z $(which docker) ]; then
   echo 'Docker is not installed. Please install Docker.' 1>&2
