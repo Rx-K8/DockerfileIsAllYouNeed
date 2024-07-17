@@ -5,8 +5,8 @@
 -----------------------------------------------------------
 Create docker container with cuda.
 
-Date Created: 2024/01/14: FUKUOKA Keito
-Update: 2024/07/17: FUKUOKA Keito
+Created Date: 2024/01/14: FUKUOKA Keito
+Updated Date: 2024/07/17: FUKUOKA Keito
 -----------------------------------------------------------
 EOF_COMMENT
 
