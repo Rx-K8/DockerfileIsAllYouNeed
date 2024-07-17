@@ -4,9 +4,6 @@ FROM ${base_image}
 
 SHELL ["/bin/bash", "-c"]
 
-# FROMよりも前に，引数の指定をするとLinux内でインストールするときに，変数が使えない
-# 推測にはなるが，FROMをするまえには，Linuxの環境がないためだと考えられる．
-
 RUN { \
   echo 'export CUDA_HOME="/usr/local/cuda"'; \
   echo 'export PATH="${CUDA_HOME}/bin:${PATH}"'; \
