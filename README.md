@@ -34,3 +34,4 @@ $ bash CreateContainer.sh --cuda_version (pytorchのバージョン) --share_dir
 
 # その他
 - 初めて使う場合，イメージを作成するため，時間がかかります．2回目以降はイメージの作成が終わっているので，すぐに終わります．
+- asdfを使ってpythonをインストールしているので，コンテナに入ってからpythonのバージョンを変更可能です．
