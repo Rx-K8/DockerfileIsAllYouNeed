@@ -4,7 +4,7 @@
 
 # 使い方
 ```
-$ bash CreateContainer.sh --cuda_version (pytorchのバージョン) --share_dir (共有したいディレクトリの絶対パス) --name (コンテナの名前)
+$ bash CreateContainer.sh --cuda_version (cudaのバージョン) --share_dir (共有したいディレクトリの絶対パス) --name (コンテナの名前)
 
 例1) $ bash CreateContainer.sh --cuda_version 12.1 --name nakaoka_practice
 例2) $ bash CreateContainer.sh --cuda_version 11.8 --share_dir ~/dock --name hayashi_practice
